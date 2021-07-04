@@ -1,0 +1,25 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenaski/github-actions-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenaski/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/chenaski/github-actions-demo#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
+}
