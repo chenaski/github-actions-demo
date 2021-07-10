@@ -12,7 +12,6 @@ jobs:
         node-version:
           - 16.0.0
           - 14.0.0
-          - 12.5.0
 
     name: node:${{ matrix.node-version }}
     steps:
